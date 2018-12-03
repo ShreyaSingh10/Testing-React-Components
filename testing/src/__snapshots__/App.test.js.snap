@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Addtodo /> matches the snapshot 1`] = `
+<div
+  className="addtodo"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      id="add-input"
+      onChange={[Function]}
+      placeholder="Add your task"
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+       Add 
+    </button>
+  </form>
+</div>
+`;
+
+exports[`<Container /> matches the snapshot 1`] = `
+<div
+  className="parent_container"
+>
+  <h1>
+    <font
+      face="Comic sans MS"
+      size="7"
+    >
+      Todo List
+    </font>
+  </h1>
+  <div
+    className="addtodo"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        id="add-input"
+        onChange={[Function]}
+        placeholder="Add your task"
+        type="text"
+      />
+      <button
+        type="submit"
+      >
+         Add 
+      </button>
+    </form>
+  </div>
+  <div
+    className="container"
+  >
+    <h2>
+      <font
+        face="Comic sans MS"
+        size="5"
+      >
+        Todos
+        
+      </font>
+    </h2>
+    <div
+      className="ancestor"
+    >
+      <div
+        className="todos-container"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Todos /> matches the snapshot 1`] = `
+<div
+  className="todos"
+>
+  <input
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+  <button
+    className="cancel"
+    onClick={[Function]}
+  >
+    X
+  </button>
+</div>
+`;
