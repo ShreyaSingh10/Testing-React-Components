@@ -13,6 +13,7 @@ import renderer from 'react-test-renderer'
 
 Enzyme.configure({ adapter: new Adapter() });
 
+//writing tests
 describe('<Container />', () => {
   //snapshot testing is a great way to check if the output of
   //your component has changed.
